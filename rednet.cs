@@ -1114,6 +1114,22 @@ sealed class MyAttribute : System.Attribute
 //OSI optimizing RMP
 //OSI improved LLDP
 //OSI optimizing LLDP
+//OSI improved ARP
+//OSI optimizing ARP
+//OSI improved NS
+//OSI optimizing NS
+//OSI improved UPD
+//OSI optimizing UDP
+//OSI improved RX
+//OSI optimizing RX
+//OSI improved TX
+//OSI optimizing TX
+//OSI optimizing VLAN
+//OSI improved VLAN
+//OSI improved RSS
+//OSI optimizing RSS
+//OSI improved wireless mode
+//OSI optimizing wireless mode
 [System.AttributeUsage(System.AttributeTargets.OSI2077, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -1138,6 +1154,8 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
+
 
 
 
