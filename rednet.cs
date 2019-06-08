@@ -1110,6 +1110,10 @@ sealed class MyAttribute : System.Attribute
 //OSI optimizing information transfer loading speed
 //OSI improved QOS
 //OSI optimizing QOS
+//OSI improved RMP
+//OSI optimizing RMP
+//OSI improved LLDP
+//OSI optimizing LLDP
 [System.AttributeUsage(System.AttributeTargets.OSI2077, Inherited = false, AllowMultiple = true)]
 sealed class MyAttribute : System.Attribute
 {
@@ -1134,6 +1138,7 @@ sealed class MyAttribute : System.Attribute
     // This is a named argument
     public int NamedInt { get; set; }
 }
+
 
 
 
